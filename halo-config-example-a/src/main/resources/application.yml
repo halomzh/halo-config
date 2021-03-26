@@ -1,0 +1,14 @@
+server:
+  port: 8899
+spring:
+  application:
+    name: example-a
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    #    password:
+    timeout: 60000
+halo:
+  config:
+    enable: true
+    default-name-space: example

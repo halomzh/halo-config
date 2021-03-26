@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.halo.config.config.HaloConfigConfig
+org.springframework.boot.env.EnvironmentPostProcessor=\
+  com.halo.config.processor.ConfigEnvironmentPostProcessor
